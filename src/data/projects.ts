@@ -1,0 +1,30 @@
+// src/data/projects.ts
+export const projects = [
+  {
+    id: 'optimum',
+    title: 'Optimum Protocol',
+    description: 'Random Linear Network Coding data availability layer for Ethereum. Scalable verifiable data sampling for rollups.',
+    tech: ['Solidity', 'TypeScript', 'EigenDA', 'P2P'],
+    link: 'https://github.com/fachrulfnd/optimum',
+    stars: 0,
+    forks: 0,
+  },
+  {
+    id: 'smis',
+    title: 'SMIS — Social Media Intelligence System',
+    description: 'Autonomous pipeline for scraping, analyzing, and orchestrating Web3 social content. Enforces anti-AI content standards.',
+    tech: ['Python', 'Telegram API', 'PostgreSQL', 'NLP'],
+    link: 'https://github.com/fachrulfnd/social-media-intelligence',
+    stars: 0,
+    forks: 0,
+  },
+  {
+    id: 'agent-builder',
+    title: 'Autonomous Agent Builder',
+    description: 'Framework for spawning and orchestrating autonomous AI coding agents. Parallel workstreams, delegation, and multi-agent coordination.',
+    tech: ['Python', 'LLM APIs', 'Docker', 'Async'],
+    link: 'https://github.com/fachrulfnd/agent-builder',
+    stars: 0,
+    forks: 0,
+  },
+];
