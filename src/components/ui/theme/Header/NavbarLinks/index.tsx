@@ -26,18 +26,25 @@ const NavbarLinks = ({ desktop }: NavbarLinksProps) => {
       })}
     >
       <Link
-        href={`${pathname}#about`}
+        href={`${pathname}#experience`}
         className="text-black mb-4 lg:mb-0 mr-0 lg:mr-4 dark:text-white lg:dark:mix-blend-difference"
         scroll
       >
-        About
+        Experience
       </Link>
       <Link
-        href={`${pathname}#projects`}
+        href={`${pathname}#skills`}
         className="text-black mb-4 lg:mb-0 mr-0 lg:mr-4 dark:text-white lg:dark:mix-blend-difference"
         scroll
       >
-        Projects
+        Skills
+      </Link>
+      <Link
+        href={`${pathname}#case-studies`}
+        className="text-black mb-4 lg:mb-0 mr-0 lg:mr-4 dark:text-white lg:dark:mix-blend-difference"
+        scroll
+      >
+        Case Studies
       </Link>
       <Link
         href={`${pathname}#contact`}
