@@ -1,7 +1,11 @@
 import Link from 'next/link';
 import { caseStudies } from 'data/case-studies';
 
-const CaseStudyCard = ({ study }) => (
+interface CaseStudyCardProps {
+  study: typeof caseStudies[0];
+}
+
+const CaseStudyCard = ({ study }: CaseStudyCardProps) => (
   <div className="bg-white dark:bg-zinc-900 shadow-sm border border-gray-200 dark:border-zinc-800 rounded-sm p-6 h-full">
     <div className="flex flex-wrap items-center gap-2 mb-4">
       <span className="px-2 py-1 bg-brand-accent/10 text-brand-accent text-xs font-semibold rounded">
@@ -64,7 +68,7 @@ const CaseStudyCard = ({ study }) => (
       </ol>
     </div>
 
-    <div className="mb-6">
+    <div className="mb-4">
       <h4 className="text-sm font-semibold mb-2 text-brand-primary dark:text-white">What They Are Looking For</h4>
       <ul className="space-y-1.5">
         {study.lookingFor.map((item, i) => (
