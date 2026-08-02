@@ -1,7 +1,7 @@
 const config = {
-  defaultTitle: 'fachrulfnd — Web3 Strategist & AI Agent Builder',
+  defaultTitle: 'fachrulfnd — Web3 Strategist & AI Agent Developer',
   url: process.env.NEXT_PUBLIC_PORTFOLIO_URL || 'https://fachrulfnd.vercel.app',
-  defaultDescription: 'Web3 community strategist and autonomous agent builder. Building AI micro-SaaS products for freelance and Web3 infrastructure.',
+  defaultDescription: 'Web3 community strategist and autonomous AI agent developer. Building micro-SaaS products and analyzing Ethereum scalability bottlenecks.',
   googleAnalyticsID: '',
   twitter: '@fachrulfnd',
   email: 'fachrulfnd@pm.me',

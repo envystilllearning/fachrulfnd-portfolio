@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import Header from 'components/ui/theme/Header';
 
 const Intro = () => (
@@ -8,10 +7,10 @@ const Intro = () => (
     <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
       <div className="flex-1 w-full lg:w-3/5">
         <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold text-brand-primary dark:text-white typography leading-tight">
-          I build AI agents and Web3 infrastructure
+          Web3 strategist and AI agent developer
         </h1>
         <p className="mb-10 text-lg md:text-xl text-brand-secondary dark:text-gray-300 leading-relaxed max-w-2xl">
-          fachrulfnd. Web3 community strategist and autonomous agent builder. Building AI micro-SaaS products and analyzing Ethereum scalability bottlenecks. No fluff, just working code.
+          fachrulfnd. I build autonomous AI agents and design Web3 community growth strategies. Currently focused on micro-SaaS products for freelance and Ethereum infrastructure. No fluff, just working systems.
         </p>
         <div className="flex flex-wrap gap-4">
           <Link href="#projects" className="button button-primary">

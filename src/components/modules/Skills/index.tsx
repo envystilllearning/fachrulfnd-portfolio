@@ -6,19 +6,19 @@ const skillGroups = [
     skills: [
       'Web3 Community Strategy',
       'Discord / Telegram Growth',
-      'Tokenomics',
-      'Governance Design',
-      'Ethereum / L2s',
+      'Tokenomics Design',
+      'Governance Frameworks',
+      'Ethereum & L2s',
     ],
   },
   {
-    label: 'AI & Agents',
+    label: 'AI Agent Development',
     skills: [
       'Autonomous Agents',
       'Multi-Agent Systems',
       'Prompt Architecture',
-      'Hermes Agent',
-      'OpenAI / Anthropic / DeepSeek',
+      'Hermes Agent Framework',
+      'LLM API Integration',
     ],
   },
   {
