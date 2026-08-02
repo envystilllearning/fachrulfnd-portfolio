@@ -8,20 +8,23 @@ const Intro = () => (
     <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
       <div className="flex-1 w-full lg:w-3/5">
         <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold text-brand-primary dark:text-white typography leading-tight">
-          Web3 contributor & AI agent builder
+          {config.name} — Web3 Strategist & Prompt Engineer
         </h1>
         <p className="mb-4 text-lg md:text-xl text-brand-secondary dark:text-gray-300 leading-relaxed max-w-2xl">
-          {config.name}. {config.location}.
+          {config.location}. Builder and strategist focused on Solana infrastructure, AI agents, and autonomous social intelligence systems.
         </p>
         <p className="mb-10 text-lg md:text-xl text-brand-secondary dark:text-gray-300 leading-relaxed max-w-2xl">
-          Casual Web3 contributor. Currently building AI agents and learning in public. I help crypto teams with community, content, and growth.
+          Freelance Web3 Community & Social Media Manager. I ship tools, write high-signal technical content, and build opinionated AI workflows without template output.
         </p>
         <div className="flex flex-wrap gap-4">
-          <Link href="#projects" className="button button-primary">
-            View work
+          <Link href="#smis" className="button button-primary">
+            SMIS
+          </Link>
+          <Link href="#projects" className="button button-secondary">
+            Projects
           </Link>
           <Link href="#contact" className="button button-secondary">
-            Get in touch
+            Contact
           </Link>
         </div>
       </div>

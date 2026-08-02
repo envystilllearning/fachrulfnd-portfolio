@@ -1,6 +1,7 @@
 import Intro from 'components/modules/Intro';
 import Experience from 'components/modules/Experience';
 import Skills from 'components/modules/Skills';
+import Projects from 'components/modules/Projects';
 import CaseStudies from 'components/modules/CaseStudies';
 import Contact from 'components/modules/Contact';
 import AllProviders from 'components/AllProviders';
@@ -11,6 +12,7 @@ const HomePage = () => (
     <AllProviders>
       <Intro />
       <Experience />
+      <Projects />
       <Skills />
       <CaseStudies />
       <Contact />
