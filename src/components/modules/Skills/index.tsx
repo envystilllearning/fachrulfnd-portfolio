@@ -4,21 +4,21 @@ const skillGroups = [
   {
     label: 'Web3 & Community',
     skills: [
-      'Web3 Community Strategy',
-      'Discord / Telegram Growth',
-      'Tokenomics Design',
-      'Governance Frameworks',
-      'Ethereum & L2s',
+      'Community Management',
+      'Discord / Telegram',
+      'Content Writing',
+      'Social Media Strategy',
+      'Twitter/X Growth',
     ],
   },
   {
-    label: 'AI Agent Development',
+    label: 'AI & Agents',
     skills: [
-      'Autonomous Agents',
-      'Multi-Agent Systems',
-      'Prompt Architecture',
-      'Hermes Agent Framework',
-      'LLM API Integration',
+      'AI Agents',
+      'Prompt Engineering',
+      'LLM Integration',
+      'Automation Workflows',
+      'Anti-AI Writing',
     ],
   },
   {
@@ -28,15 +28,15 @@ const skillGroups = [
       'TypeScript',
       'Next.js',
       'PostgreSQL',
-      'Docker / AWS',
+      'Docker',
     ],
   },
 ];
 
 const Skills = () => (
-  <div className="container py-16" id="about">
+  <div className="container py-16" id="skills">
     <h2 className="text-3xl font-bold mb-8 text-brand-primary dark:text-white typography">
-      Skills & expertise
+      Skills & tools
     </h2>
     <div className="grid gap-8 grid-cols-1 md:grid-cols-3 mb-12">
       {skillGroups.map((group) => (
@@ -58,6 +58,9 @@ const Skills = () => (
         </div>
       ))}
     </div>
+    <p className="text-brand-secondary dark:text-gray-400 mb-6 max-w-2xl">
+      Still learning. Currently focused on AI agent development and contributing to Web3 infrastructure projects. Not an expert — just building in public.
+    </p>
     <Link href="#contact" className="button button-primary">
       Discuss a project
     </Link>

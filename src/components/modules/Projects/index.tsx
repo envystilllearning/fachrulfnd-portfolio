@@ -4,10 +4,10 @@ import { projects } from 'data/projects';
 const Projects = () => (
   <div className="container py-16" id="projects">
     <h2 className="text-3xl font-bold mb-2 text-brand-primary dark:text-white typography">
-      Selected Work
+      Things I build
     </h2>
     <p className="text-brand-secondary dark:text-gray-300 mb-10 text-lg max-w-xl">
-      Building tools at the intersection of Web3 infrastructure and autonomous AI agents.
+      Personal projects and experiments. Some are useful, most are learning in public.
     </p>
     <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       {projects.map((project) => (
